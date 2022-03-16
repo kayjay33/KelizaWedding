@@ -29,6 +29,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.clock-styling {
+	color: white;
+	font-size: 50px;
+	margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+	.clock-styling {
+		font-size: 25px;
+	}
+}
+
 body {
 	line-height: 1;
 }
